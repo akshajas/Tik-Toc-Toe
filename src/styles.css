@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-gap: 10px;
+}
+.grid div{
+    background-color: oldlace;
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+.icon{
+    color: white;
+}
+.afterWin{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: red;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
